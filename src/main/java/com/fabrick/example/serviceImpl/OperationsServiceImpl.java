@@ -83,7 +83,7 @@ public class OperationsServiceImpl implements OperationsService{
 			        params
 			);
 		}catch (Exception e) {
-			ErrorResponse error = new ErrorResponse("API000", "Errore tecnico  La condizione BP049 non e' prevista per il conto id 14537780");
+			ErrorResponse error = new ErrorResponse("API000", "Errore tecnico La condizione BP049 non e' prevista per il conto id 14537780");
 			return new Gson().toJson(error);
 		}		
 		
