@@ -1,4 +1,4 @@
-package com.fabrick.example.response;
+package com.fabrick.example.beans;
 
 import java.util.List;
 

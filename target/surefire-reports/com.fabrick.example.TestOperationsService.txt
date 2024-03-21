@@ -1,0 +1,20 @@
+-------------------------------------------------------------------------------
+Test set: com.fabrick.example.TestOperationsService
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.718 s <<< FAILURE! -- in com.fabrick.example.TestOperationsService
+com.fabrick.example.TestOperationsService.incorrectWeight -- Time elapsed: 0.703 s <<< ERROR!
+org.springframework.web.client.HttpClientErrorException$Forbidden: 403 Forbidden: "{<EOL><EOL>  "status" : "KO",<EOL><EOL>  "errors" : [{"code":"REQ003","description":"Missing request header: Auth-Schema","params":""}],<EOL><EOL>  "payload": {}<EOL><EOL>}"
+	at org.springframework.web.client.HttpClientErrorException.create(HttpClientErrorException.java:109)
+	at org.springframework.web.client.DefaultResponseErrorHandler.handleError(DefaultResponseErrorHandler.java:183)
+	at org.springframework.web.client.DefaultResponseErrorHandler.handleError(DefaultResponseErrorHandler.java:137)
+	at org.springframework.web.client.ResponseErrorHandler.handleError(ResponseErrorHandler.java:63)
+	at org.springframework.web.client.RestTemplate.handleResponse(RestTemplate.java:942)
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:891)
+	at org.springframework.web.client.RestTemplate.execute(RestTemplate.java:811)
+	at org.springframework.web.client.RestTemplate.exchange(RestTemplate.java:682)
+	at com.fabrick.example.serviceImpl.OperationsServiceImpl.letturaSaldo(OperationsServiceImpl.java:54)
+	at com.fabrick.example.TestOperationsService.incorrectWeight(TestOperationsService.java:14)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+

@@ -1,4 +1,4 @@
-package com.fabrick.example.response;
+package com.fabrick.example.beans;
 
 public class MoneyTransferRequest {
 
@@ -8,6 +8,17 @@ public class MoneyTransferRequest {
 	private String currency;
 	private String amount;
 	private String executionDate;
+
+	public MoneyTransferRequest(Long accountId, String receiverName, String description, String currency, String amount,
+			String executionDate) {
+		super();
+		this.accountId = accountId;
+		this.receiverName = receiverName;
+		this.description = description;
+		this.currency = currency;
+		this.amount = amount;
+		this.executionDate = executionDate;
+	}
 
 	public String getReceiverName() {
 		return receiverName;

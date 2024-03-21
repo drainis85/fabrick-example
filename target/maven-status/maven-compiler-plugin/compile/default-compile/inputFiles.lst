@@ -1,0 +1,12 @@
+/Users/davide.rainis/Documents/Reply/BE/fabrick-example/src/main/java/com/fabrick/example/controller/OperationsController.java
+/Users/davide.rainis/Documents/Reply/BE/fabrick-example/src/main/java/com/fabrick/example/ExampleApplication.java
+/Users/davide.rainis/Documents/Reply/BE/fabrick-example/src/main/java/com/fabrick/example/beans/ErrorResponse.java
+/Users/davide.rainis/Documents/Reply/BE/fabrick-example/src/main/java/com/fabrick/example/beans/Type.java
+/Users/davide.rainis/Documents/Reply/BE/fabrick-example/src/main/java/com/fabrick/example/service/OperationsService.java
+/Users/davide.rainis/Documents/Reply/BE/fabrick-example/src/main/java/com/fabrick/example/beans/AccountTransactionsRequest.java
+/Users/davide.rainis/Documents/Reply/BE/fabrick-example/src/main/java/com/fabrick/example/beans/Transaction.java
+/Users/davide.rainis/Documents/Reply/BE/fabrick-example/src/main/java/com/fabrick/example/repository/TransactionRepository.java
+/Users/davide.rainis/Documents/Reply/BE/fabrick-example/src/main/java/com/fabrick/example/serviceImpl/OperationsServiceImpl.java
+/Users/davide.rainis/Documents/Reply/BE/fabrick-example/src/main/java/com/fabrick/example/beans/Payload.java
+/Users/davide.rainis/Documents/Reply/BE/fabrick-example/src/main/java/com/fabrick/example/beans/MoneyTransferRequest.java
+/Users/davide.rainis/Documents/Reply/BE/fabrick-example/src/main/java/com/fabrick/example/beans/FabrickResponse.java

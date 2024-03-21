@@ -1,4 +1,4 @@
-package com.fabrick.example.response;
+package com.fabrick.example.beans;
 
 public class Payload {
 
